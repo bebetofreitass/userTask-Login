@@ -1,0 +1,38 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Carlos"
+    },
+    {
+      "id": "2",
+      "name": "Ester"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "5384",
+      "title": "Estudar Hooks",
+      "completed": true,
+      "userId": "1"
+    },
+    {
+      "id": "0775",
+      "title": "Passear com dog",
+      "completed": false,
+      "userId": "1"
+    },
+    {
+      "id": "7610",
+      "title": "revisar código",
+      "completed": false,
+      "userId": "2"
+    },
+    {
+      "id": "c0de",
+      "title": "Estudar Inglês",
+      "completed": false,
+      "userId": "1"
+    }
+  ]
+}
