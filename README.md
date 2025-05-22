@@ -1,12 +1,98 @@
-# React + Vite
+# 📋 Lista de Atividades (To-Do List)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicação web para gerenciamento de tarefas. Permite adicionar, marcar como concluídas e excluir tarefas, além de trocar de usuário.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tecnologias
 
-## Expanding the ESLint configuration
+- [React](https://reactjs.org/)
+- [Context API](https://reactjs.org/docs/context.html)
+- [Axios](https://axios-http.com/)
+- [Node.js (se tiver backend)]
+- [TailwindCSS ou CSS puro]
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧩 Funcionalidades
+
+- ✅ Adicionar uma nova tarefa
+- ✏️ Marcar tarefa como concluída
+- ❌ Remover tarefa
+- 👥 Trocar de usuário (com dados dinâmicos da API)
+- 📦 Persistência via contexto (TaskContext)
+
+---
+
+## 📦 Instalação
+
+```bash
+# Clone o repositório
+git clone https://github.com/seu-usuario/nome-do-repo.git
+
+# Acesse a pasta do projeto
+cd nome-do-repo
+
+# Instale as dependências
+npm install
+
+# Inicie o projeto
+npm run dev
+```
+
+---
+
+## 🔌 Requisitos
+
+- Node.js v16+
+- npm ou yarn
+- Conexão com a API (ex: `/users`, `/tasks`)
+
+---
+
+## 🌐 Estrutura de Pastas
+
+```
+src/
+├── components/
+│   ├── TaskForm.jsx
+│   ├── TaskItem.jsx
+│   ├── TaskList.jsx
+│   └── UserSwitcher.jsx
+├── context/
+│   └── TaskProvider.jsx
+├── service/
+│   └── api.js
+├── App.jsx
+└── main.jsx
+```
+
+---
+
+## 📁 API Esperada (Exemplo)
+
+- `GET /users` → Lista de usuários
+- `GET /tasks?userId=x` → Tarefas de um usuário
+- `POST /tasks` → Adiciona tarefa
+- `DELETE /tasks/:id` → Remove tarefa
+- `PATCH /tasks/:id` → Atualiza tarefa (ex: toggle)
+
+---
+
+## 🧠 Melhorias futuras
+
+- 🔒 Autenticação de usuário
+- 📱 Responsividade mobile
+- ☁️ Integração com banco de dados real
+
+---
+
+## 🤝 Contribuição
+
+Sinta-se à vontade para abrir *issues*, sugerir melhorias ou enviar *pull requests*!
+
+---
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT.
