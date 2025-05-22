@@ -28,7 +28,17 @@ Aplicação web para gerenciamento de tarefas. Permite adicionar, marcar como co
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/nome-do-repo.git
+git clone # Clone o repositório
+git clone https://github.com/bebetofreitass/userTask-Login.git
+
+# Acesse a pasta do projeto
+cd userTask-Login
+
+# Instale as dependências
+npm install
+
+# Inicie o projeto
+npm run dev
 
 # Acesse a pasta do projeto
 cd nome-do-repo
@@ -37,7 +47,9 @@ cd nome-do-repo
 npm install
 
 # Inicie o projeto
+npm run server
 npm run dev
+
 ```
 
 ---
@@ -45,7 +57,7 @@ npm run dev
 ## 🔌 Requisitos
 
 - Node.js v16+
-- npm ou yarn
+- npm
 - Conexão com a API (ex: `/users`, `/tasks`)
 
 ---
@@ -93,6 +105,3 @@ Sinta-se à vontade para abrir *issues*, sugerir melhorias ou enviar *pull reque
 
 ---
 
-## 📄 Licença
-
-Este projeto está sob a licença MIT.
