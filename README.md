@@ -6,11 +6,10 @@ Aplicação web para gerenciamento de tarefas. Permite adicionar, marcar como co
 
 ## 🚀 Tecnologias
 
-- [React](https://reactjs.org/)
-- [Context API](https://reactjs.org/docs/context.html)
-- [Axios](https://axios-http.com/)
-- [Node.js (se tiver backend)]
-- [TailwindCSS ou CSS puro]
+- [React]
+- [Context API]
+- [Axios]
+- [Node.js
 
 ---
 
@@ -33,15 +32,6 @@ git clone https://github.com/bebetofreitass/userTask-Login.git
 
 # Acesse a pasta do projeto
 cd userTask-Login
-
-# Instale as dependências
-npm install
-
-# Inicie o projeto
-npm run dev
-
-# Acesse a pasta do projeto
-cd nome-do-repo
 
 # Instale as dependências
 npm install
