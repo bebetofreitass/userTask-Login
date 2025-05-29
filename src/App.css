@@ -7,7 +7,10 @@
 
 body {
     font-family: 'Segoe UI', sans-serif;
-    background-color: #f2f4f8;
+    background: linear-gradient(135deg, #7f00ff, #e100ff);
+    min-height: 100vh;
+    display: center;
+    justify-content: center;
     margin: 0;
     padding: 0;
 }
