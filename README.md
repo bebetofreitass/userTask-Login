@@ -104,14 +104,3 @@ Durante o desenvolvimento deste projeto, foram exercitados:
 - Estilização modularizada com CSS
 
 ---
-
-## 🧑‍💻 Autor
-
-Desenvolvido por **[@bebetofreitass](https://github.com/bebetofreitass)**  
-Sinta-se à vontade para abrir issues, contribuir ou entrar em contato!
-
----
-
-## 📝 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](./LICENSE) para mais detalhes.
