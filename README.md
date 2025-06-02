@@ -1,97 +1,87 @@
-# 📋 Lista de Atividades (To-Do List)
+📝 userTask-Login
+Aplicação web simples de lista de tarefas (To-Do List) com troca de usuários. Desenvolvida em React, utilizando Context API para gerenciamento global de estado e Axios para requisições à API de usuários.
 
-Aplicação web para gerenciamento de tarefas. Permite adicionar, marcar como concluídas e excluir tarefas, além de trocar de usuário.
+📌 Descrição
+Este projeto tem como objetivo demonstrar os princípios de componentização, consumo de APIs e gerenciamento de estado em aplicações front-end com React. Cada usuário possui uma lista de tarefas individual que pode ser gerenciada (adicionar, concluir e excluir tarefas).
 
----
+⚙️ Funcionalidades
+✅ Adicionar Tarefas: Crie novas tarefas para o usuário atual.
 
-## 🚀 Tecnologias
+🗂 Listagem de Tarefas: Exibe todas as tarefas do usuário selecionado.
 
-- [React]
-- [Context API]
-- [Axios]
-- [Node.js
+✏️ Marcar como Concluída: Altere o status da tarefa com um clique.
 
----
+❌ Excluir Tarefas: Remova tarefas específicas da lista.
 
-## 🧩 Funcionalidades
+🔄 Trocar de Usuário: Permite alternar entre diferentes usuários simulados pela API.
 
-- ✅ Adicionar uma nova tarefa
-- ✏️ Marcar tarefa como concluída
-- ❌ Remover tarefa
-- 👥 Trocar de usuário (com dados dinâmicos da API)
-- 📦 Persistência via contexto (TaskContext)
+🔒 Context API: Uso de contexto global para compartilhar dados entre componentes.
 
----
+🌐 Consumo de API: Axios é utilizado para buscar usuários dinamicamente.
 
-## 📦 Instalação
+🖼️ Prévia da Interface
+(Se desejar, você pode adicionar aqui um gif ou imagem demonstrando a aplicação)
 
-```bash
+🚀 Tecnologias Utilizadas
+Tecnologia	Descrição
+React	Biblioteca JavaScript para construção de interfaces
+Axios	Cliente HTTP para requisições assíncronas
+Context API	Gerenciamento de estado global
+Vite	Build tool para projetos React com hot reload
+CSS Modules	Estilização com escopo local
+
+📦 Instalação e Execução
+Pré-requisitos
+Node.js >= 14.x
+
+npm ou yarn
+
+Passo a passo
+bash
+Copiar
+Editar
 # Clone o repositório
-git clone # Clone o repositório
 git clone https://github.com/bebetofreitass/userTask-Login.git
 
-# Acesse a pasta do projeto
+# Acesse o diretório do projeto
 cd userTask-Login
 
 # Instale as dependências
 npm install
 
-# Inicie o projeto
-npm run server
+# Inicie o servidor de desenvolvimento
 npm run dev
+Abra o navegador em http://localhost:5173 para visualizar a aplicação.
 
-```
+📁 Estrutura de Pastas
+csharp
+Copiar
+Editar
+userTask-Login/
+├── public/
+├── src/
+│   ├── components/     # Componentes reutilizáveis (Header, TaskList, UserSelector, etc.)
+│   ├── context/        # Contexto global (TaskContext)
+│   ├── services/       # Arquivos de configuração de API (Axios)
+│   ├── App.jsx         # Componente principal
+│   └── main.jsx        # Entrada da aplicação
+├── package.json
+└── vite.config.js
+🔗 API Utilizada
+A aplicação consome dados fictícios de usuários da seguinte API:
 
----
+JSONPlaceholder
 
-## 🔌 Requisitos
+📚 Aprendizados
+Durante o desenvolvimento deste projeto, foram exercitados:
 
-- Node.js v16+
-- npm
-- Conexão com a API (ex: `/users`, `/tasks`)
+Criação e consumo de Context API no React
 
----
+Separação de responsabilidades por componentes
 
-## 🌐 Estrutura de Pastas
+Práticas de clean code e componentização
 
-```
-src/
-├── components/
-│   ├── TaskForm.jsx
-│   ├── TaskItem.jsx
-│   ├── TaskList.jsx
-│   └── UserSwitcher.jsx
-├── context/
-│   └── TaskProvider.jsx
-├── service/
-│   └── api.js
-├── App.jsx
-└── main.jsx
-```
+Interação com APIs externas usando Axios
 
----
-
-## 📁 API Esperada (Exemplo)
-
-- `GET /users` → Lista de usuários
-- `GET /tasks?userId=x` → Tarefas de um usuário
-- `POST /tasks` → Adiciona tarefa
-- `DELETE /tasks/:id` → Remove tarefa
-- `PATCH /tasks/:id` → Atualiza tarefa (ex: toggle)
-
----
-
-## 🧠 Melhorias futuras
-
-- 🔒 Autenticação de usuário
-- 📱 Responsividade mobile
-- ☁️ Integração com banco de dados real
-
----
-
-## 🤝 Contribuição
-
-Sinta-se à vontade para abrir *issues*, sugerir melhorias ou enviar *pull requests*!
-
----
+Estilização modularizada com CSS
 
